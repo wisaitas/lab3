@@ -2,10 +2,11 @@
 using namespace std;
 int main()
 {
-    float x = 1;
+    float x = 2,y;
     while (x < 70){
-        cout << 1/x+1 << endl;
-        x = x+1;
+        y=1/x;
+        x=x+1;
     }
+    cout << y;
     return 0;
 }
